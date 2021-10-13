@@ -1,9 +1,10 @@
 {
-  "name": "vite-react-ts-tailwind-starter",
+  "homepage": ".",
+  "name": "weather-app",
   "version": "0.0.1",
   "license": "MIT",
   "author": {
-    "name": "TeXmeijin"
+    "name": "Bhanu Kushwah"
   },
   "scripts": {
     "dev": "vite",
