@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // axiosInstance to make api calls
 export const axiosInstance = axios.create({
-  baseURL: `http://api.openweathermap.org/data/2.5`,
+  baseURL: `https://api.openweathermap.org/data/2.5`,
   timeout: 60000,
 })
 
