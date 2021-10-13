@@ -19,11 +19,11 @@ const Navbar: FC = () => {
       <ul className="flex flex-row md:flex-col gap-2">
         {menuLinks.map(menuItem =>
           activeLink === menuItem.path ? (
-            <li className="font-bold">
+            <li className="font-bold" key={menuItem.title}>
               <Link to={menuItem.path}>{menuItem.title}</Link>
             </li>
           ) : (
-            <li onClick={() => setActiveLink(menuItem.path)}>
+            <li key={menuItem.title} onClick={() => setActiveLink(menuItem.path)}>
               <Link to={menuItem.path}>{menuItem.title}</Link>
             </li>
           ),

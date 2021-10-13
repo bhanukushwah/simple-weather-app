@@ -17,8 +17,8 @@ const CitiesPage: FC = () => {
   }
 
   return (
-    <div className="h-full flex">
-      <div className="w-80 border rounded mr-4">
+    <div className="h-full flex flex-col-reverse md:flex-row">
+      <div className="w-full md:w-80 border rounded mr-4">
         <div className="flex justify-between items-center px-4 py-3">
           <h3 className="font-bold ">Cities</h3>
           <img
