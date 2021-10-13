@@ -40,7 +40,7 @@ const initialState: IWeatherStateProps = {
     },
     {
       name: 'Indore',
-      isSelected: false,
+      isSelected: true,
     },
     {
       name: 'Lucknow',
